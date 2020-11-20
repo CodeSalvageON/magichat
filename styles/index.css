@@ -1,0 +1,27 @@
+.no-margin {
+  margin: 0;
+}
+
+.margin {
+  margin: auto;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.powderblue {
+  background-color: powderblue;
+}
