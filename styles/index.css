@@ -1,3 +1,5 @@
+/* Margin */
+
 .no-margin {
   margin: 0;
 }
@@ -5,6 +7,8 @@
 .margin {
   margin: auto;
 }
+
+/* Background Colors */
 
 .blue {
   background-color: blue;
@@ -37,6 +41,8 @@
 .black {
   background-color: black;
 }
+
+/* Input */
 
 .text-input {
   padding: 8px;
