@@ -25,3 +25,21 @@
 .powderblue {
   background-color: powderblue;
 }
+
+.violet {
+  background-color: violet;
+}
+
+.limegreen {
+  background-color: limegreen;
+}
+
+.black {
+  background-color: black;
+}
+
+.text-input {
+  padding: 8px;
+  border: hidden;
+  border-radius: 8px;
+}
