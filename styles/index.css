@@ -8,6 +8,11 @@
   margin: auto;
 }
 
+.center {
+  margin: auto;
+  text-align: center;
+}
+
 /* Background Colors */
 
 .blue {
