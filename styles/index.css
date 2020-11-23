@@ -64,3 +64,16 @@
   border: hidden;
   border-radius: 8px;
 }
+
+/* Buttons */
+.button {
+  padding: 8px;
+  border: hidden;
+  border-radius: 8px;
+  transition: background-color ease-in-out 2s;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: limegreen;
+}
