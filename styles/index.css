@@ -77,3 +77,7 @@
   cursor: pointer;
   background-color: limegreen;
 }
+
+.boxed {
+  padding: 10px;
+}
