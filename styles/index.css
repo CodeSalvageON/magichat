@@ -81,3 +81,7 @@
 .boxed {
   padding: 50px;
 }
+
+.rounded {
+  border-radius: 8px;
+}
