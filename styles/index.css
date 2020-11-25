@@ -85,3 +85,13 @@
 .rounded {
   border-radius: 8px;
 }
+
+.zoom {
+  margin: 0 auto;
+  transition: transform .5s; 
+}
+
+.zoom:hover {
+  cursor: default;
+  transform: scale(1.05);
+}
