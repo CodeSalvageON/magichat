@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+.paragraph {
+  width: 500px;
+}
+
 /* Background Colors */
 
 .blue {
