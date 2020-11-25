@@ -95,3 +95,8 @@
   cursor: default;
   transform: scale(1.05);
 }
+
+/* Fonts */
+.texturina {
+  font-family: 'Texturina', serif;
+}
