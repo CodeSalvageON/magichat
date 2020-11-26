@@ -104,6 +104,10 @@
   transform: scale(1.05);
 }
 
+.slightly-transparent {
+  opacity: 0.4;
+}
+
 /* Fonts */
 .texturina {
   font-family: 'Texturina', serif;
