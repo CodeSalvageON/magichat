@@ -112,3 +112,13 @@
 .texturina {
   font-family: 'Texturina', serif;
 }
+
+/* Links */
+.false-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.false-link:hover {
+  cursor: pointer;
+}
