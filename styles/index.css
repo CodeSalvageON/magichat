@@ -108,6 +108,10 @@
   opacity: 0.8;
 }
 
+.no-border {
+  border: hidden;
+}
+
 /* Fonts */
 .texturina {
   font-family: 'Texturina', serif;
