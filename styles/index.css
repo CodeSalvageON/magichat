@@ -112,6 +112,10 @@
   border: hidden;
 }
 
+.circle {
+  border-radius: 50%;
+}
+
 /* Fonts */
 .texturina {
   font-family: 'Texturina', serif;
