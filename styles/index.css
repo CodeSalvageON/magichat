@@ -17,6 +17,10 @@
   width: 500px;
 }
 
+.no-overflow {
+  overflow: hidden;
+}
+
 /* Background Colors */
 
 .blue {
