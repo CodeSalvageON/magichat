@@ -138,6 +138,10 @@
   font-family: 'Texturina', serif;
 }
 
+.jetbrains {
+  font-family: 'JetBrains Mono', monospace;
+}
+
 /* Links */
 .false-link {
   color: blue;
