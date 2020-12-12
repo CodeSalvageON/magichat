@@ -138,6 +138,10 @@
   transform: scaleX(-1);
 }
 
+.sunlight {
+  box-shadow: 0px 0px 40px 15px white;  
+}
+
 /* Fonts */
 .texturina {
   font-family: 'Texturina', serif;
