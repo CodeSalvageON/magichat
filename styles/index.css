@@ -195,3 +195,13 @@
 .false-link:hover {
   cursor: pointer;
 }
+
+/* Animations */
+@-webkit-keyframes STAR-MOVE {
+	from {
+		background-position: 5% 5%
+	}
+	to { 
+		background-position: 1300% 600%
+	}
+}
