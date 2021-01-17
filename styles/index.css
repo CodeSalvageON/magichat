@@ -77,6 +77,10 @@
   background-color: white;
 }
 
+.error {
+  color: red;
+}
+
 /* Input */
 
 .text-input {
