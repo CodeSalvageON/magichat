@@ -25,6 +25,10 @@
   background-attachment: fixed;
 }
 
+.add-scroll {
+  overflow-y: auto;
+}
+
 /* Background Colors */
 
 .blue {
