@@ -13,6 +13,11 @@
   text-align: center;
 }
 
+.center-absolute {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .paragraph {
   width: 500px;
 }
