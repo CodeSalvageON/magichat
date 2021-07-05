@@ -38,6 +38,14 @@
 
 /* Background Colors */
 
+.glow-red {
+  text-shadow: 2px 2px 5px red;
+}
+
+.glow-cyber {
+  text-shadow: 2px 2px 5px #3e60ab;
+}
+
 .blue {
   background-color: blue;
 }
