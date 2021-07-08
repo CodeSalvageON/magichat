@@ -239,7 +239,7 @@
 }
 
 #background-stars {
-	background: black url(../images/background.png) repeat 5% 5%;
+	background: black url("https://codesalvageon.github.io/magichat/styles/background.png") repeat 5% 5%;
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
 	z-index: 100;
@@ -251,7 +251,7 @@
 }
 
 #midground-stars {
-	background: url(../images/midground.png) repeat 20% 20%;
+	background: url("https://codesalvageon.github.io/magichat/styles/midground.png") repeat 20% 20%;
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
 	z-index: 200;
@@ -263,7 +263,7 @@
 }
 
 #foreground-stars {
-	background: url(../images/foreground.png) repeat 35% 35%;
+	background: url("https://codesalvageon.github.io/magichat/styles/foreground.png") repeat 35% 35%;
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
 	z-index: 300;
