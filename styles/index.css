@@ -52,6 +52,10 @@
   text-shadow: 2px 2px 5px #3e60ab;
 }
 
+.glow-augment {
+  text-shadow: 2px 2px 5px #ffcc00;
+}
+
 .blue {
   background-color: blue;
 }
