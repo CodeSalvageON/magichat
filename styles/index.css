@@ -116,6 +116,10 @@
 
 /* Input */
 
+.default-cursor:hover {
+  cursor: default;
+}
+
 .text-input {
   padding: 8px;
   border: hidden;
