@@ -1,4 +1,5 @@
 const main_body = document.body;
+const main_body_style = main_body.style;
 
 function openFullscreen() {
   if (main_body.requestFullscreen) {
