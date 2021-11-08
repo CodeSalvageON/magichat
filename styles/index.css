@@ -30,6 +30,10 @@
   width: 500px;
 }
 
+.small-paragraph {
+  width: 300px;
+}
+
 .no-overflow {
   overflow: hidden;
 }
