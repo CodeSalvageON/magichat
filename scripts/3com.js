@@ -4,4 +4,8 @@ $("#welcome").hide();
 
 setTimeout(function () {
   $("#welcome").fadeIn(3000);
+  
+  setTimeout(function () {
+    $("#welcome").fadeOut(3000);
+  });
 }, 1000);
