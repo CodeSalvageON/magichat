@@ -7,5 +7,5 @@ setTimeout(function () {
   
   setTimeout(function () {
     $("#welcome").fadeOut(3000);
-  });
+  }, 3000);
 }, 1000);
