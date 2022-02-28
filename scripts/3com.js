@@ -8,5 +8,9 @@ setTimeout(function () {
   
   setTimeout(function () {
     $("#welcome").fadeOut(3000);
+    
+    setTimeout(function () {
+      $("#mail1").fadeIn(3000);
+    }, 3000);
   }, 3000);
 }, 1000);
