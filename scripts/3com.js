@@ -1,4 +1,5 @@
 // Why did I decide to use Flask? Why?
+const logInUsername = localStorage.getItem("3com_handle");
 
 $("#welcome").hide();
 $("#mail1").hide();
