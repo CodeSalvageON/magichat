@@ -11,7 +11,13 @@ setTimeout(function () {
     $("#welcome").fadeOut(3000);
     
     setTimeout(function () {
-      $("#mail1").fadeIn(3000);
+      if (logInUsername === "" || logInUsername === undefined || logInUsername === null) {
+        $("#mail1").fadeIn(3000);
+      }
+      
+      else {
+        $("#mail2").fadeIn(3000);
+      }
     }, 3000);
   }, 3000);
 }, 1000);
