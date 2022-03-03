@@ -3,6 +3,7 @@ const logInUsername = localStorage.getItem("3com_handle");
 
 $("#welcome").hide();
 $("#mail1").hide();
+$("#mail2").hide();
 
 setTimeout(function () {
   $("#welcome").fadeIn(3000);
