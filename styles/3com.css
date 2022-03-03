@@ -1,5 +1,5 @@
 input {
-  border: none;
+  border: 1px solid green;
   text-decoration: underline;
   background-color: transparent;
 }
