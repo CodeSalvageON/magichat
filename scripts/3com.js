@@ -117,7 +117,7 @@ $("#post-form").submit(function () {
     body : JSON.stringify({
       handle : mail_thingy,
       pfp : pfpthingy,
-      postimg : document.getElementById("img-url").value,
+      img : document.getElementById("img-url").value,
       postcaption : document.getElementById("caption").value
     })
   })
