@@ -27,6 +27,7 @@ const creationForm = document.getElementById("creation-form");
 const mailHandle = document.getElementById("mail-handle1");
 const pfpURL = document.getElementById("pfp-url");
 const displayEmail = document.getElementById("display-email");
+const displayPFP = document.getElementById("display-pfp");
 
 let mail_thingy = "";
 let mail_pfp = "";
@@ -67,6 +68,14 @@ creationForm.onsubmit = function () {
     }
     
     displayEmail.innerText = "Address: " + mail_thingy + "@" + provRand;
+    
+    if (mail_pfp === "" || mail_pfp === null || mail_pfp === undefined) {
+      displayPFP.src = "https://codesalvageon.github.io/magichat/images/chess.png";
+    }
+    
+    else {
+      displayPFP.src = mail_pfp;
+    }
   })
   .catch(error => {
     throw error;
