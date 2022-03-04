@@ -39,7 +39,10 @@ creationForm.onsubmit = function () {
     headers : {
       "Content-Type" : "application/json"
     },
-    body : JSON.stringify(mailHandle.value)
+    body : JSON.stringify({
+      handle : mailHandle.value,
+      pfp : pfpURL.value
+    })
   })
   .then(response => response.text())
   .then(data => {
