@@ -3,6 +3,7 @@ const logInUsername = localStorage.getItem("3com_handle");
 
 $("#welcome").hide();
 $("#mail1").hide();
+$("#display-pfp").hide();
 $("#mail2").hide();
 
 setTimeout(function () {
@@ -68,6 +69,8 @@ creationForm.onsubmit = function () {
     }
     
     displayEmail.innerText = "Address: " + mail_thingy + "@" + provRand;
+    
+    $("#display-pfp").show();
     
     if (mail_pfp === "" || mail_pfp === null || mail_pfp === undefined) {
       displayPFP.src = "https://codesalvageon.github.io/magichat/images/chess.png";
