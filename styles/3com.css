@@ -1,4 +1,4 @@
-input {
+input, button {
   border: 1px solid green;
   text-decoration: underline;
   background-color: transparent;
