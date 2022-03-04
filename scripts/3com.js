@@ -69,6 +69,7 @@ creationForm.onsubmit = function () {
     }
     
     displayEmail.innerText = "Address: " + mail_thingy + "@" + provRand;
+    mail_thingy = mail_thingy + "@" + provRand;
     
     $("#display-pfp").show();
     
@@ -94,6 +95,43 @@ creationForm.onsubmit = function () {
 }
 
 const feed = document.getElementById("feed");
+
+$("#post-form").submit(function () {
+  event.preventDefault();
+  
+  let pfpthingy = "";
+  
+  if (mail_pfp === null || mail_pfp === undefined || mail_pfp === "") {
+    pfpthingy = "https://codesalvageon.github.io/magichat/images/chess.png";
+  }
+  
+  else {
+    pfpthingy = mail_pfp;
+  }
+  
+  fetch ("/post", {
+    method : "POST",
+    headers : {
+      "Content-Type" : "application/json"
+    },
+    body : JSON.stringify({
+      handle : mail_thingy,
+      pfp : pfpthingy,
+      postimg : document.getElementById("img-url").value,
+      postcaption : document.getElementById("caption").value
+    })
+  })
+  .then(response => response.text())
+  .then(data => {
+    console.log(data);
+    
+    document.getElementById("img-url").value = "";
+    document.getElementById("caption").value = "";
+  })
+  .catch(error => {
+    throw error;
+  });
+});
 
 setInterval(function () {
   fetch("/feed")
