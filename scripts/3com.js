@@ -92,3 +92,16 @@ creationForm.onsubmit = function () {
     throw error;
   })
 }
+
+const feed = document.getElementById("feed");
+
+setInterval(function () {
+  fetch("/feed")
+  .then(response => response.text())
+  .then(data => {
+    feed.innerHTML = data;
+  })
+  .catch(error => {
+    throw error;
+  })
+}, 5000);
