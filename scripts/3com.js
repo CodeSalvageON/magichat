@@ -76,6 +76,14 @@ creationForm.onsubmit = function () {
     else {
       displayPFP.src = mail_pfp;
     }
+    
+    setTimeout(function () {
+      $("#mail1").fadeOut(3000);
+      
+      setTimeout(function () {
+        $("#mail2").fadeIn(3000);
+      }, 3000);
+    }, 5000);
   })
   .catch(error => {
     throw error;
