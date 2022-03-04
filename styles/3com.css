@@ -11,3 +11,7 @@ input, button {
   text-align: center;
   position: relative;
 }
+
+#display-pfp {
+  border: 1px solid green;
+}
